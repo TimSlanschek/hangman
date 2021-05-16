@@ -1,0 +1,4 @@
+We added a slight change from the norm for sending the final "You win!" or "You lose!" message.
+The server sends the final game control packet, then the client checks if it is the final packet.
+If so, it sends a packet to the server with 2 in the field of the first byte (rather than 0 or 1).
+This tells the server to send a message packet with the "You {whatever}!" phrase.

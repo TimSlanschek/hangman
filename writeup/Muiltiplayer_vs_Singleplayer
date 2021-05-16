@@ -1,0 +1,13 @@
+We included the files for both singleplayer and multiplayer modes
+
+Singleplayer is the base version of the game without any extra credit
+
+Multiplayer includes the extra credit on top of the single player mode.
+Technically all singleplayer functionality should work just as well in singleplayer as multiplayer,
+but if you get errors in singleplayer mode with the multiplayer file,
+we recommend you test the functionality on the singleplayer mode, as it was more thoroughly tested.
+
+To run single player mode, use the base `make run-server` or `make run-client`
+To run multiplayer mode, use `make run-server-multi` or `make run-client-multi`
+
+Multiplayer functionality is pretty straightforward, add a charactered when it is your turn.
